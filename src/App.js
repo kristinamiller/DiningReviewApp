@@ -6,11 +6,10 @@ import Preview from './Preview.js';
 
 function App() {
 
-  const [content, updateContent] = useState("");
-  const [count, updateCount] = useState("");
   const [preview, updatePreview] = useState([{ 
     content: "", 
-    count: ""
+    count: "",
+    emoji: "smiley3"
   }]);
 
 

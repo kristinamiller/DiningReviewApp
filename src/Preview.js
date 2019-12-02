@@ -3,15 +3,26 @@ import './Preview.css';
 
 function Preview(props) {
 
-
+  const emojis = {
+    smiley1: "😍",
+    smiley2: "🙂",
+    smiley3: "😕",
+    smiley4: "🙁",
+    smiley5: "😣",
+  }
 
   return (
     <section className="preview">
       <div className="preview-label">Preview of your review</div>
       <div className="preview-content">
         <div className="preview-emoji">
-          😍
-          {/* Your emoji code goes here */}
+          <span role="img" aria-label="smiley">
+            {!props.preview.emoji ? (
+              <p>😍</p>
+            ) : (
+              <p>{emojis[props.preview.emoji]}</p>
+            )}
+          </span>
         </div>
         <div className="preview-feedback">
           {!props.preview.content ? (
