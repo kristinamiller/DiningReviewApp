@@ -24,7 +24,7 @@ function Preview(props) {
           {!props.preview.emoji ? (
             <img src={smiley5} className="preview-emoji-img" />
           ) : (
-            <img src={emojis[props.preview.emoji]} className="preview-emoji-img" />
+            <img src={emojis[props.preview.emoji]} className="preview-emoji-img preview-emoji-custom" />
           )}
         </div>
         <div className="preview-feedback">

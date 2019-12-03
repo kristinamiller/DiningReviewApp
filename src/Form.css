@@ -1,7 +1,8 @@
 .form {
-  width: 70%;
+  /* width: 70%; */
   margin-top: 3rem;
-
+  margin-left: 16%;
+  margin-right: 16%;
 }
 
 .form-label {
@@ -42,10 +43,20 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
+/* .form-emoji-line {
+  border-bottom: 5px solid rgba(0, 0, 0, 0.25);
+  width: 80%;
+  top: 45%;
+  left: 10%;
+  z-index: -1;
+  position: absolute;
+} */
+
 .form-radio-emojis {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 20%;
 }
 
 [type=radio] { 
@@ -59,6 +70,33 @@ input[type=number]::-webkit-outer-spin-button {
   cursor: pointer;
   width: 15%;
   padding: 2%;
+  transition: all 0.98s;
+    transition-property: all;
+    transition-duration: 0.58s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.form-radio-label:hover {
+  transform: scale(1.4);
+}
+
+@keyframes pulse {
+  0% { 
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.5);
+  } 
+}
+
+.form-rating-text {
+  text-align: center;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .form-radio-input {
@@ -67,6 +105,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .form-radio-img {
   width: 100%;
+  
 }
 
 @media (orientation: portrait) {
