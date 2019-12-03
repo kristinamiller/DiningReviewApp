@@ -1,6 +1,6 @@
 .preview {
+  margin-top: 2rem;
   width: 70%;
-  margin-top: 3rem;
 }
 
 .preview-label {
@@ -12,7 +12,6 @@
   box-shadow: 0px 30px 80px rgba(134, 158, 174, 0.15);
   padding: 30px;
   margin-top: 15px;
-  
 }
 
 .preview-emoji {
@@ -25,51 +24,10 @@
   margin-bottom: 1rem;
 }
 
-
-.preview-emoji-custom {
-  animation: bounce 2s;
-  animation-timing-function: ease;
-  transition: all 0.98s;
-    transition-property: all;
-    transition-duration: 0.58s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-}
-
 .preview-emoji-img {
   width: 100%;
   height: 100%;
-  
 }
-
-@keyframes bounce {
-  0% { 
-    /* transform: translateX(-50px);
-    transform: translateY(10px); */
-    transform: scale(0.5);
-  }
-  20% {
-    transform: scale(0.7);
-  }
-  40% {
-    /* transform: translateX(-10px);
-    transform: translateY(-30px); */
-    transform: scale(1.3);
-  }
-  60% {
-    transform: scale(0.9);
-  }
-  90% {
-    transform: scale(1.1)
-
-  }
-  100% {
-    /* transform: translateX(0px);
-    transform: translateY(0px); */
-    transform: scale(1);
-  } 
-}
-
 
 p {
   margin: 0;
@@ -84,17 +42,10 @@ p {
 
 .placeholder {
   color: rgba(0, 0, 0, 0.25);
-  
 }
-
-
 
 .number-placeholder {
   color: rgba(0, 0, 0, 0.25);
-}
-
-.preview-text {
-  
 }
 
 .preview-party {
@@ -118,6 +69,5 @@ p {
   .preview-content {
     margin-bottom: 27px;
   }
-
 
 }

@@ -11,7 +11,6 @@ function Form(props) {
   return (
     <div className="form">
       <label className="form-label">How was your meal?</label>
-
       <div className="form-radio-emojis">
         <label className="form-radio-label">
           <input
@@ -61,7 +60,6 @@ function Form(props) {
             value="smiley3"
             name="emojiInput"
           />
-
           <img src={smiley3} className="form-radio-img" />
           <p className="form-rating-text">Okay</p>
         </label>
