@@ -1,13 +1,10 @@
-This take-home test was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Getting started
-- Clone the repo: `git clone git@github.com:monographhq/test-frontend.git`
-- Install dependencies: `yarn`
-- Make sure the app runs: `yarn start`
-
-## Frontend Test
-
 ### Dining review app
+
+
+![Emoji Section](https://github.com/kristinamiller/DiningReviewApp/blob/master/public/emoji-section.png)
+
+
+
 
 Design Reference: [Figma File](https://www.figma.com/file/jjqRhIa54hOakjjAWkpbmC/Take-home-frontend-test?node-id=0%3A1)
 
