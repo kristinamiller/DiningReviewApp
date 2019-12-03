@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Form.css';
 import smiley1 from './smiley1.png';
 import smiley2 from './smiley2.png';
@@ -26,7 +26,7 @@ function Form(props) {
             value="smiley1"
             name="emojiInput"
           />
-          <img src={smiley1} className="form-radio-img" />
+          <img src={smiley1} className="form-radio-img terrible" />
           <p className="form-rating-text">Terrible</p>
         </label>
         <label className="form-radio-label">

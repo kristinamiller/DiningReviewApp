@@ -58,8 +58,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .form-radio-label {
+  text-align: center;
   cursor: pointer;
-  width: 15%;
+  width: 16%;
   padding: 2%;
   transition: all 0.98s;
     transition-property: all;
@@ -82,12 +83,30 @@ input[type=number]::-webkit-outer-spin-button {
   width: 100%;
 }
 
+:checked + img + p {
+  font-weight: bold;
+  color: black;
+}
+
+
 @media (orientation: portrait) {
 
   .form {
     width: 90%;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: 5px;
     margin-bottom: 24px;
   }
+
+  .form-radio-label {
+    width: 15%;
+    padding: 2%;
+  }
+
+  .form-rating-text {
+    font-size: 0.9rem;
+  }
+
 
 }
