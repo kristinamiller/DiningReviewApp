@@ -8,6 +8,7 @@
   height: 2rem;
   border-radius: 2rem;
   border: 0.5rem solid #000;
+  margin-top: 5px;
 }
 
 .header-content {
@@ -21,4 +22,17 @@
   top: 0;
   right: 0;
   width: 300px;
+}
+
+@media (orientation: portrait) {
+   .header-content {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin: 20px 0px 20px 0px;
+  }
+
+  .header {
+    padding: 20px;
+    border-bottom: none;
+  }
 }

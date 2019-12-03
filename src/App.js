@@ -9,7 +9,7 @@ function App() {
   const [preview, updatePreview] = useState([{ 
     content: "", 
     count: "",
-    emoji: "smiley3"
+    emoji: ""
   }]);
 
 
@@ -18,7 +18,7 @@ function App() {
       <Header />
       <main className="app-main">
         <section className="app-left">
-          <Form updatePreview={updatePreview} />
+          <Form updatePreview={updatePreview} preview={preview} />
         </section>
         <section className="app-right">
           <Preview preview={preview}/>

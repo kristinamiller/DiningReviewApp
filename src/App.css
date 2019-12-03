@@ -12,12 +12,44 @@
   display: flex;
   justify-content: center;
   flex: 0 0 50%;
+  width: 50%;
 }
 
 .app-right {
   display: flex;
   justify-content: center;
   flex: 0 0 50%;
+  width: 50%;
   background: #F8FBFD;
   min-height: 80vh;
+}
+
+@media (orientation: portrait) {
+
+  .app-main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .app-left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .app-right {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 0vh;
+  }  
+
+  .header-illustration {
+    display: none;
+    
+  }
+
+
+
 }
