@@ -1,8 +1,12 @@
 ### Dining review app
 
+I designed it with hover effects like this: 
 
 ![Emoji Section](https://github.com/kristinamiller/DiningReviewApp/blob/master/public/emoji-section.png)
 
+The whole thing looks like this:
+
+![Screenshot](https://github.com/kristinamiller/DiningReviewApp/blob/master/public/screenshot.png)
 
 
 
